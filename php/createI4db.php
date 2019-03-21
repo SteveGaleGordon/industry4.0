@@ -11,7 +11,7 @@ if (!$conn) {
 }
 
 // Create database
-$sql = "CREATE DATABASE StevesSipyIOTdb";
+$sql = "CREATE DATABASE Industry40db";
 if (mysqli_query($conn, $sql)) {
     echo "Industry 4.0 Database created successfully";
 } else {
