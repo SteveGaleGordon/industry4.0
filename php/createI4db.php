@@ -10,7 +10,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-// Create database
+// Create MySQL database 
 $sql = "CREATE DATABASE Industry40db";
 if (mysqli_query($conn, $sql)) {
     echo "Industry 4.0 Database created successfully";
